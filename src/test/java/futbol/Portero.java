@@ -22,7 +22,7 @@ public class Portero extends Futbolista{
 	}
 	
 	public String toString() {
-		return "El futbolista "+getNombre()+" tiene "+getEdad()+", y juega de "+getPosicion()+" con el dorsal "+this.dorsal+". Le han marcado "+this.golesRecibidos+".";
+		return "El futbolista "+getNombre()+" tiene "+getEdad()+", y juega de "+getPosicion()+" con el dorsal "+this.dorsal+". Le han marcado "+this.golesRecibidos;
 	}
 
 }
